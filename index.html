@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Personal Site</title>
+    <style>
+        .container {
+            display: flex;
+            gap: 20px;
+            /* Keeps an even 20px margin between all three cards */
+            align-items: flex-start;
+            flex-wrap: nowrap;
+            /* Forces them to stay in one row */
+        }
+        
+        .profile-pic {
+            border-radius: 20%;
+            border: 2px solid #a01414;
+            width: 250px;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+        
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            background-color: rgb(175, 219, 204);
+        }
+        
+        .bio {
+            font-style: italic;
+            font-size: 18px;
+            margin-left: 20px;
+            margin-right: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .about-me {
+            width: 350px;
+            background-color: rgb(180, 173, 231);
+            height: 370px;
+            border-radius: 15%;
+            overflow: auto;
+        }
+        
+        .contact {
+            width: 400px;
+            background-color: rgb(180, 173, 231);
+            height: 370px;
+            border-radius: 15%;
+            overflow: auto;
+        }
+        
+        .fun-fact {
+            width: 350px;
+            background-color: rgb(180, 173, 231);
+            height: 370px;
+            border-radius: 15%;
+            overflow: auto;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        
+        .favorite-song {
+            width: 250px;
+            margin-top: 20px;
+            margin-left: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>My Personal Site</h1>
+        <nav>
+            <a href="https://www.linkedin.com/in/ahsen-oruc-6819b9290/">LinkedIn</a>
+            <a href="https://github.com/AhsenEda">GitHub</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section id="about">
+            <h2>About Me</h2>
+            <div class="about-me">
+                <img class="profile-pic" src="profile.jpg" alt="Profile Picture" width="150">
+                <p class="bio">Hi, I'm Ahsen. I am 15 years old and I live in Türkiye.<br> I am interested in coding, art and mathematics.<br></p>
+            </div>
+        </section>
+
+        <section id="contact-section">
+            <h2>Contact</h2>
+            <div class="contact">
+                <img class="linkedin-profile" src="linkedin-profile.jpg" alt="Contact Image" width="150"> <br>
+                <a href="https://www.linkedin.com/in/ahsen-oruc-6819b9290/">Click for my LinkedIn profile</a><br>
+                <a href="https://github.com/AhsenEda">Click for my GitHub profile</a>
+                <p>School Email: ahsen.oruc@stu.enka.k12.tr</p>
+                <p>Personal Email: ahsenedaoruc@icloud.com</p>
+                <p> Note: It is more likely that I will see my school email faster!</p>
+            </div>
+        </section>
+
+        <section id="fun-fact">
+            <h2>Fun Fact</h2>
+            <div class="fun-fact">
+                <p>My Favorite Song is "Cambaz" by Mor ve Ötesi</p>
+                <img class="favorite-song" src="favorite-song.jpg" alt="Favorite Song" width="150">
+            </div>
+        </section>
+    </main>
+
+</body>
+
+</html>
